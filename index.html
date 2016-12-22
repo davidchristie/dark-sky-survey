@@ -1,0 +1,28 @@
+<!-- https://developers.google.com/maps/documentation/javascript/examples/layer-heatmap -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dark Sky Survey</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!-- <div id="floating-panel">
+      <button onclick="toggleHeatmap()">Toggle Heatmap</button>
+      <button onclick="changeGradient()">Change gradient</button>
+      <button onclick="changeRadius()">Change radius</button>
+      <button onclick="changeOpacity()">Change opacity</button>
+    </div> -->
+    <div id="map"></div>
+    <b>Paste the CSV data down here then click this button =></b>
+    <button id="submit">Submit</button>
+    <textarea id="data" rows="10" cols="40"></textarea>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQA6X-tucKjsgC_ydf-jXZnH4gmoebF9c&libraries=visualization&callback=initMap">
+    </script>
+  </body>
+</html>
